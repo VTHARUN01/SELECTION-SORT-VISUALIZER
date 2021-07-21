@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+label{
+  color:white ;
+  font-weight: 900;
+}
+nav,footer{
+  width: 100%;
+  display: flex;
+  padding:10px;
+}
+#input{
+  flex-direction: column;
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  justify-content: space-evenly;
+  color:white;
+  padding: 10px;
+}
+div{
+  display: flex;
+  width:75%;
+  margin: auto;
+  margin-top:10px;
+}
+#container{
+  border-top: 2px solid #0d6efd 
+}
+ul{
+  margin-left: 40%;
+  list-style-type: none;
+  float: left;
+}
+
